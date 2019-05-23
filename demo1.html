@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"  />
+	<title>订单下降调查问卷</title>
+	<link rel="stylesheet" href="css/boostrap.min.css">
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		.container {
+			margin: 15px 0;
+		}
+
+		textarea {
+			width: 100%;
+			resize: none;
+		}
+
+		label {
+			display: inline;
+		}
+
+		.must {
+			color: red;
+			vertical-align: middle;
+			margin-left: 5px;
+		}
+
+		.notmust {
+			color: lightgray;
+			font-size: 13px;
+			vertical-align: middle;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<form class="needs-validation" novalidate method="get">
+			<dl class="list-group">
+				<dt class="list-group-item">一、您在和乐门业订单下降的主要原因是 ?
+					<span class="must">*</span>
+				</dt>
+				<dd class="list-group-item">
+					<input type="radio" name="group1" value="A" id="1_1" />
+					<label for="1_1">质量因素</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="radio" name="group1" value="B" id="1_2" />
+					<label for="1_2">服务因素</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="radio" name="group1" value="C" id="1_3" />
+					<label for="1_3">价格因素</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="radio" name="group1" value="D" id="1_4" />
+					<label for="1_4">其他</label>
+				</dd>
+				<dt class="list-group-item">二、请您指出我们现有的不足？</dt>
+				<dt class="list-group-item">（一）质量方面（可多选，最多两条）
+					<span class="must">*</span>
+				</dt>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group2" value="1" id="2_1_1" />
+					<label for="2_1_1">平整度不够</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group2" value="2" id="2_1_2" />
+					<label for="2_1_2">表面不够美观</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group2" value="3" id="2_1_3" />
+					<label for="2_1_3">颜色一致性较差</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group2" value="4" id="2_1_4" />
+					<label for="2_1_4">五金配件质量差</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group2" value="5" id="2_1_5" />
+					<label for="2_1_5">不易安装</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group2" value="6" id="2_1_6" />
+					<label for="2_1_6">开关性能不足</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group2" value="7" id="2_1_7" />
+					<label for="2_1_7">间隙较大、门扇晃动</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group2" value="8" id="2_1_8" />
+					<label for="2_1_8">打包质量差，包装纸经常破损</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group2" value="9" id="2_1_9" />
+					<label for="2_1_9">产品档次低，竞争力不高</label>
+				</dd>
+
+				<dt class="list-group-item">（二）服务方面（可多选，最多两条）
+					<span class="must">*</span>
+				</dt>
+
+				<dd class="list-group-item">
+					<input type="checkbox" name="group3" value="1" id="2_2_1" />
+					<label for="2_2_1">态度恶劣</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group3" value="2" id="2_2_2" />
+					<label for="2_2_2">经常不接电话</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group3" value="3" id="2_2_3" />
+					<label for="2_2_3">对产品不熟悉，沟通困难</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group3" value="4" id="2_2_4" />
+					<label for="2_2_4">回复处理问题较慢 </label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group3" value="5" id="2_2_5" />
+					<label for="2_2_5">推卸或逃避责任</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group3" value="6" id="2_2_6" />
+					<label for="2_2_6">交货周期较长</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group3" value="7" id="2_2_7" />
+					<label for="2_2_7">人为原因频繁下错订单</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group3" value="8" id="2_2_8" />
+					<label for="2_2_8">运输过程中产品经常出现硬伤</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group3" value="9" id="2_2_9" />
+					<label for="2_2_9">小件经常缺失</label>
+				</dd>
+				<dt class="list-group-item">（三）价格方面（可多选，最多两条）
+					<span class="must">*</span>
+				</dt>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group4" value="1" id="2_3_1" />
+					<label for="2_3_1"> 调价频繁</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group4" value="2" id="2_3_2" />
+					<label for="2_3_2"> 价格过高</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group4" value="3" id="2_3_3" />
+					<label for="2_3_3"> 加价规则复杂</label>
+				</dd>
+				<dd class="list-group-item">
+					<input type="checkbox" name="group4" value="4" id="2_3_4" />
+					<label for="2_3_4"> 加价规则不合理</label>
+				</dd>
+				<dt class="list-group-item">（四）其它
+					<span class="notmust">选填</span>
+				</dt>
+				<dd class="list-group-item">
+					<textarea class="form-control" name="other" id="others" rows="3"></textarea>
+				</dd>
+
+				<dd class="list-group-item">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">姓名
+								<span class="must">*</span>
+							</span>
+						</div>
+						<input type="text" class="form-control" name="uname" maxlength="20" placeholder="请输入您的姓名" aria-label="Username" aria-describedby="basic-addon1">
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">电话
+								<span class="must">*</span>
+							</span>
+						</div>
+						<input type="tel" class="form-control" name="uphone" maxlength="11" placeholder="请输入手机号码" aria-label="Username" aria-describedby="basic-addon1">
+					</div>
+				</dd>
+				<dd class="list-group-item">
+					<button type="button" class="btn btn-primary btn-lg btn-block" onclick="sure(this.form)">提交</button>
+				</dd>
+			</dl>
+		</form>
+	</div>
+
+
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="js/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件
+  -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="layer/layer.js"></script>
+	<script>
+		$("input[name='group2']").click(function () {
+			if ($("input[name='group2']:checked").length > 2) {
+				layer.msg('只能勾选两个', function () {});
+				$(this).removeAttr("checked");
+				return;
+			}
+		});
+		$("input[name='group3']").click(function () {
+			if ($("input[name='group3']:checked").length > 2) {
+				layer.msg('只能勾选两个', function () {});
+				$(this).removeAttr("checked");
+				return;
+			}
+		});
+		$("input[name='group4']").click(function () {
+			if ($("input[name='group4']:checked").length > 2) {
+				layer.msg('只能勾选两个', function () {});
+				$(this).removeAttr("checked");
+				return;
+			}
+		});
+
+		function sure(form) {
+			let gr2 = [],
+				gr3 = [],
+				gr4 = [];
+			if (!isDataValid(form.group1.value)) {
+				layer.msg('"一" 题未选择！', function () {});
+				return;
+			}
+
+			$("input[name='group2']:checked").each(function () {
+				gr2.push($(this).val())
+			});
+			$("input[name='group3']:checked").each(function () {
+				gr3.push($(this).val())
+			});
+			$("input[name='group4']:checked").each(function () {
+				gr4.push($(this).val())
+			});
+			if (gr2.length < 1) {
+				layer.msg('"二（一）" 题未选择！', function () {});
+				return;
+			}
+			if (gr3.length < 1) {
+				layer.msg('"二（二）" 题未选择！', function () {});
+				return;
+			}
+			if (gr4.length < 1) {
+				layer.msg('"二（三）" 题未选择！', function () {});
+				return;
+			}
+			if (!isDataValid(form.uname.value)) {
+				layer.msg('姓名不能为空！', function () {});
+				return;
+			}
+			if (!isDataValid(form.uphone.value)) {
+				layer.msg('电话不能为空！', function () {});
+				return;
+			}
+
+
+			if (form.uphone.value.length !== 11) {
+				layer.msg('请输入11位手机号码!', function () {});
+				return;
+			}
+			if (!(/^1[3|4|5|6|7|8|9][0-9]\d{8}$/.test(form.uphone.value))) {
+				layer.msg('手机号码格式不正确!', function () {});
+				return;
+			}
+
+			//  POST
+			let url = 'http://apps.wsy.me/votes/hele20180802/';
+			let data = {
+				'main': form.group1.value,
+				'quality': gr2.join(','),
+				'service': gr3.join(','),
+				'price': gr4.join(','),
+				'other': form.other.value,
+				'name': form.uname.value,
+				'phone': form.uphone.value
+			}
+			$.ajax({
+				type: "post",
+				url: url,
+				dataType: "json",
+				data: data,
+				async: true,
+				cache: false,
+				success: function (ret) {
+					if (ret.code == 200) {                        
+						layer.msg(ret.msg, {                            
+							icon: 6                        
+						});                        
+						return false;                    
+					} else {                        
+						layer.msg(ret.msg, function () {});                        
+						return;                    
+					}
+				},
+				error: function (XMLHttpRequest, textStatus, errorThrown) {
+					layer.msg('服务器异常，请联系管理员！', function () { });
+					return;     
+				}
+			});
+
+		}
+
+		function isDataValid(data) {
+			if (data != null && data !== '' && data !== 'undefined' && data !== 'null' && data !== undefined) {
+				return true;
+			}
+			return false;
+		}
+	</script>
+</body>
+
+</html>

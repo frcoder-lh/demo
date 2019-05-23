@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+    <!-- ios下删除默认的苹果工具栏和菜单栏 -->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <!-- ios下控制状态栏显示样式，黑色 -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <title>问卷调查</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+
+<body>
+    <!-- 验证 -->
+    <div id="validate">
+        <h3></h3>
+    </div>
+    <!-- header -->
+    <header id="header">
+        <div class="header_title">
+            <h1><img src="images/logo.png" alt="logo图片">吉林省软环境建设公众满意度调查问卷</h1>
+        </div>
+        <img class="header_prompt" src="images/prompt.png" alt="温馨提示">
+    </header>
+    <!-- 调查问卷 -->
+    <form method="get" action="">
+        <ul class="researchContainer">
+            <!-- question -->
+            <li>
+                <div class="res_header">
+                    <img src="images/no1.png">
+                    <span class="res_header_title">您的性别是：</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="sex" value="0">男</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="sex" value="1">女</input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no2.png">
+                    <span class="res_header_title">您的年龄是：</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="age" value="0">20-30</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="age" value="1">30-40</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="age" value="2">40-50</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="age" value="3">50以上</input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no3.png">
+                    <span class="res_header_title">您的学历是：</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="education" value="0">高中、中专及以下</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="education" value="1">专科</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="education" value="2">本科</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="education" value="3">研究生硕士</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="education" value="4">博士研究生</input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no4.png">
+                    <span class="res_header_title">您的职业或身份是：</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="identity" value="0">农民</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="identity" value="1">个体户</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="identity" value="2">一般职员</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="identity" value="3">中层管理人员</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="identity" value="4">其他</input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no5.png">
+                    <span class="res_header_title">您的年收入大约是：____（单位：万元）</span>
+                </div>
+                <div class="res_body">
+                    <select name="income" class="res_select">
+                        <option>请选择</option>
+                        <option value="0">0~1</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no6.png">
+                    <span class="res_header_title">个人经商、投资办企业的便利程度：</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="business" value="0">非常满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="business" value="1">满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="business" value="2">不确定</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="business" value="3">不满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="business" value="4">非常不满意</input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no7.png">
+                    <span class="res_header_title">政府对公民个人财产的保护程度：</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="protect" value="0">非常满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="protect" value="1">满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="protect" value="2">不确定</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="protect" value="3">不满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="protect" value="4">非常不满意</input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no8.png">
+                    <span class="res_header_title">政府提供公平竞争环境：</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="compete" value="0">非常满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="compete" value="1">满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="compete" value="2">不确定</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="compete" value="3">不满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="compete" value="4">非常不满意</input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no9.png">
+                    <span class="res_header_title">政府对小微企业扶持政策的针对性：</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="support" value="0">非常满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="support" value="1">满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="support" value="2">不确定</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="support" value="3">不满意</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="support" value="4">非常不满意</input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no10.png">
+                    <span class="res_header_title">就您所知，在吉林全省之内，地方政府服务最令人满意的前三一次是（请选择县级城市、区或县的名称）：</span>
+                </div>
+                <div class="res_body">
+                    <div class="res_select_container">
+                        <select name="no10_city_01" class="res_select">
+                            <option>市州</option>
+                            <option value="0">长春市</option>
+                        </select>
+                        <select name="no10_county_01" class="res_select">
+                            <option>县区</option>
+                            <option value="0">南关区</option>
+                        </select>
+                    </div>
+                    <div class="res_select_container">
+                        <select name="no10_city_02" class="res_select">
+                            <option>市州</option>
+                            <option value="0">长春市</option>
+                        </select>
+                        <select name="no10_county_02" class="res_select">
+                            <option>县区</option>
+                            <option value="0">南关区</option>
+                        </select>
+                    </div>
+                    <div class="res_select_container">
+                        <select name="no10_city_03" class="res_select">
+                            <option>市州</option>
+                            <option value="0">长春市</option>
+                        </select>
+                        <select name="no10_county_03" class="res_select">
+                            <option>县区</option>
+                            <option value="0">南关区</option>
+                        </select>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no11.png">
+                    <span class="res_header_title">就您所知，在吉林全省之内，地方政府服务最令人不满意的前三一次是（请选择县级城市、区或县的名称）：</span>
+                </div>
+                <div class="res_body">
+                    <div class="res_select_container">
+                        <select name="no11_city_01" class="res_select">
+                            <option>市州</option>
+                            <option value="0">长春市</option>
+                        </select>
+                        <select name="no11_county_01" class="res_select">
+                            <option>县区</option>
+                            <option value="0">南关区</option>
+                        </select>
+                    </div>
+                    <div class="res_select_container">
+                        <select name="no11_city_02" class="res_select">
+                            <option>市州</option>
+                            <option value="0">长春市</option>
+                        </select>
+                        <select name="no11_county_02" class="res_select">
+                            <option>县区</option>
+                            <option value="0">南关区</option>
+                        </select>
+                    </div>
+                    <div class="res_select_container">
+                        <select name="no11_city_03" class="res_select">
+                            <option>市州</option>
+                            <option value="0">长春市</option>
+                        </select>
+                        <select name="no11_county_03" class="res_select">
+                            <option>县区</option>
+                            <option value="0">南关区</option>
+                        </select>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no12.png">
+                    <span class="res_header_title">您知道可通过如下那些方式或政府有关部门反映问题？</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="question_1" value="0">上访</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_1" value="1">写信投诉</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_1" value="2">投诉电话</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_1" value="3">网上投诉</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_1" value="4">手机APP</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_1" value="5">找熟人</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_1" value="6">其他</input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="res_header">
+                    <img src="images/no13.png">
+                    <span class="res_header_title">您曾经向政府或有关部门反应问题？</span>
+                    <span class="res_header_title">若曾经反映过，如下哪些方式得到的反馈最快？</span>
+                </div>
+                <div class="res_body">
+                    <div>
+                        <input type="radio" class="res_radio" name="question_2" value="0">上访</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_2" value="1">写信投诉</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_2" value="2">投诉电话</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_2" value="3">网上投诉</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_2" value="4">手机APP</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_2" value="5">找熟人</input>
+                    </div>
+                    <div>
+                        <input type="radio" class="res_radio" name="question_2" value="6">其他</input>
+                    </div>
+                </div>
+            </li>
+            <!-- end -->
+        </ul>
+    </form>
+    <!-- footer -->
+    <footer id="footer">
+        <button type="button">提交</button>
+    </footer>
+    <!-- script -->
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

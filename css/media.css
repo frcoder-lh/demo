@@ -1,0 +1,317 @@
+@media screen and (min-width:1200px) and (max-width: 1400px) {
+    html {
+        font-size: 16px;
+    }
+    header {
+        height: 24rem;
+    }
+    .header_title h1 img {
+        width: 7rem;
+        height: auto;
+        vertical-align: middle;
+    }
+    .header_title h1 {
+        padding: 2.5rem;
+        width: 75%;
+        font-size: 2.2rem;
+        margin: 5rem auto;
+    }
+    .header_prompt {
+        margin-top: 1rem;
+        width: 60rem;
+        height: auto;
+    }
+    form {
+        background: url(../images/titleBg.png) no-repeat;
+    }
+    .researchContainer {
+        background: none;
+        padding: 12rem 0 0 0;
+        margin: 0 auto;
+    }
+    .researchContainer li {
+        margin: 1rem 0;
+    }
+    .res_body {
+        padding: 2rem 0 0 10%;
+    }
+    .res_body>div {
+        width: 22%;
+    }
+    footer {
+        height: 12rem;
+    }
+    footer button {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    html {
+        font-size: 16px;
+    }
+    header {
+        height: 20rem;
+    }
+    .header_title h1 img {
+        width: 5rem;
+        height: auto;
+        vertical-align: top;
+    }
+    .header_prompt {
+        margin-top: 1rem;
+        width: 50rem;
+        height: auto;
+    }
+    .header_title h1 {
+        padding: 2.5rem;
+        width: 75%;
+        font-size: 2rem;
+        margin: 4rem auto;
+    }
+    form {
+        background: url(../images/titleBg.png) no-repeat;
+    }
+    .researchContainer {
+        background: none;
+        padding: 12rem 0 0 0;
+        margin: 0 auto;
+    }
+    .researchContainer li {
+        margin: 1rem 0;
+    }
+    .res_body {
+        padding: 2rem 0 0 10%;
+    }
+    .res_body>div {
+        width: 22%;
+    }
+    footer {
+        background: url(../images/head.png);
+        background-size: contain;
+        height: 8rem;
+    }
+    footer button {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    html {
+        font-size: 18px;
+    }
+    header {
+        height: 10rem;
+        border-bottom: 1rem solid #ddd;
+    }
+    header img {
+        display: none;
+    }
+    .header_prompt {
+        display: none;
+    }
+    .header_title h1 {
+        padding: 2.5rem;
+        width: 75%;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .researchContainer {
+        background: none;
+        padding: 1rem 0 0 0;
+        margin: 0 auto;
+    }
+    .researchContainer li {
+        margin: 1rem 0;
+    }
+    .res_body {
+        padding: 2rem 0 0 10%;
+        /*flex的兼容布局*/
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    .res_body>div {
+        width: 100%;
+    }
+    footer {
+        background: url(../images/head.png);
+        background-size: contain;
+        height: 8rem;
+    }
+    footer button {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    html {
+        font-size: 16px;
+    }
+    header {
+        height: 10rem;
+        border-bottom: 1rem solid #ddd;
+    }
+    header img {
+        display: none;
+    }
+    .header_prompt {
+        display: none;
+    }
+    .header_title h1 {
+        padding: 2.5rem;
+        width: 75%;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .researchContainer {
+        background: none;
+        padding: 1rem 0 0 0;
+        margin: 0 auto;
+    }
+    .researchContainer li {
+        margin: 1rem 0;
+    }
+    .res_body {
+        padding: 2rem 0 0 10%;
+        /*flex的兼容布局*/
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    .res_body>div {
+        width: 100%;
+    }
+    footer {
+        background: url(../images/head.png);
+        background-size: contain;
+        height: 8rem;
+    }
+    footer button {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 479px) {
+    html {
+        font-size: 10px;
+    }
+    header {
+        height: 10rem;
+        border-bottom: 1rem solid #ddd;
+    }
+    header img {
+        display: none;
+    }
+    .header_prompt {
+        display: none;
+    }
+    .header_title h1 {
+        padding: 2.5rem;
+        width: 75%;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .researchContainer {
+        background: none;
+        padding: 1rem 0 0 0;
+        margin: 0 auto;
+    }
+    .researchContainer li {
+        margin: 1rem 0;
+    }
+    .res_body {
+        padding: 2rem 0 0 10%;
+        /*flex的兼容布局*/
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    .res_body>div {
+        width: 100%;
+    }
+    footer {
+        background: url(../images/head.png);
+        background-size: contain;
+        height: 8rem;
+    }
+    footer button {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    html {
+        font-size: 10px;
+    }
+    header {
+        height: 10rem;
+        border-bottom: 1rem solid #ddd;
+    }
+    header img {
+        display: none;
+    }
+    .header_prompt {
+        display: none;
+    }
+    .header_title h1 {
+        padding: 2.5rem;
+        width: 75%;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .researchContainer {
+        background: none;
+        padding: 1rem 0 0 0;
+        margin: 0 auto;
+    }
+    .researchContainer li {
+        margin: 1rem 0;
+    }
+    .res_body {
+        padding: 3rem 0 0 10%;
+        /*flex的兼容布局*/
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    .res_body>div {
+        width: 100%;
+    }
+    footer {
+        background: url(../images/head.png);
+        background-size: contain;
+        height: 8rem;
+    }
+    footer button {
+        margin-top: 2rem;
+    }
+}
